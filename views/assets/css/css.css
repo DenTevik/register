@@ -1,0 +1,52 @@
+.form_row{
+    margin:10px 20px;
+}
+
+.form_row .form_coll{
+    margin:10px 20px 10px 0;
+    display: flex;
+    width:600px;
+    margin:20px auto;
+}
+
+.form_row .form_coll label{
+    width:150px;
+    display: block;
+    flex: 0 0 150px;
+    padding:10px 10px 10px 0;
+}
+.form_row .form_coll input{
+    display: block;
+    flex: 0 0 450px;
+    padding:10px;
+}
+
+.form_row .form_coll input[type="submit"],
+.form_row .form_coll input[type="button"]{
+margin-left:auto;
+margin-right:auto;
+flex: 0 0 33%;
+}
+
+
+.StatusRow .withErrors {
+    background:red;
+    color:#fff;
+    padding:5px 10px;
+    margin-bottom:2px;
+}
+
+.StatusRow .withSuccess {
+    background:green;
+    color:#fff;
+    padding:5px 10px;
+    margin-bottom:2px;
+}
+
+.StatusRow > .form_coll{
+    display: block;
+}
+
+.buttons input{
+    max-width:150px;
+}
